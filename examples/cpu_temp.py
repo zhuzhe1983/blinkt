@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import time
-from subprocess import PIPE, Popen
 
 import blinkt
 
@@ -9,14 +8,9 @@ blinkt.set_clear_on_exit()
 
 
 def get_cpu_temperature():
-    process = Popen(['vcgencmd', 'measure_temp'], stdout=PIPE)
-    output, _error = process.communicate()
-    output = output.decode()
-
-    pos_start = output.index('=') + 1
-    pos_end = output.rindex("'")
-
-    temp = float(output[pos_start:pos_end])
+    with open("/sys/devices/virtual/thermal/thermal_zone0/temp","r") as file:
+        temp_raw=file.read()
+    temp=int(temp_raw)/1000
 
     return temp
 
