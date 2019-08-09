@@ -7,7 +7,7 @@
 
 https://shop.pimoroni.com/products/blinkt
 
-Eight super-bright RGB LED indicators, ideal for adding visual notifications to your Raspberry Pi on their own or on a pHAT stacking header.
+Eight super-bright RGB LED indicators, ideal for adding visual notifications to your Jetson Nano on their own or on a pHAT stacking header.
 
 ## Installing
 
@@ -15,7 +15,7 @@ Eight super-bright RGB LED indicators, ideal for adding visual notifications to 
 
 We've created an easy installation script that will install all pre-requisites and get your Blinkt!
 up and running with minimal efforts. To run it, fire up Terminal which you'll find in Menu -> Accessories -> Terminal
-on your Raspberry Pi desktop, as illustrated below:
+on your Jetson Nano, as illustrated below:
 
 ![Finding the terminal](http://get.pimoroni.com/resources/github-repo-terminal.png)
 
