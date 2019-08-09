@@ -2,7 +2,7 @@
 import atexit
 import time
 
-import RPi.GPIO as GPIO
+import Jetson.GPIO as GPIO
 
 
 __version__ = '0.1.2'
