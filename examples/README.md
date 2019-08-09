@@ -7,8 +7,8 @@ The examples in the `extra_examples` folder are designed to work with other pHAT
 ## List of examples with basic instructions
 
 - 1d_tetris - shows randomly coloured lights falling into place and clearing occasionally. No input needed. Offline.
-- binary_clock - shows time in hours, minutes, and seconds using the local time from your Pi. No input needed. Offline.
-- binary_clock_meld - shows time in hours (red), minutes (green) and seconds (blue) using local time from your Pi. No input needed. Offline.
+- binary_clock - shows time in hours, minutes, and seconds using the local time from your Jetson Nano. No input needed. Offline.
+- binary_clock_meld - shows time in hours (red), minutes (green) and seconds (blue) using local time from your Jetson Nano. No input needed. Offline.
 - blinkt_thermo - draws a graph of the temperature based on the openweather data for whatever city you set it to. Needs keys and ID from openweathermap.org. Online.
 - candle - flickers the pixels in a candle effect. May require a numpy install. Offline.
 - cheerlights - reads twitter for any tweets with the hashtag "cheerlights" and a colour. Changes all the pixels to that colour. Online.
@@ -18,7 +18,7 @@ The examples in the `extra_examples` folder are designed to work with other pHAT
 - graph - pulses a magenta graph across the blinkt and back again. Offline.
 - larson - remember Knight Rider? Offline.
 - larson_hue - same as larson, but in rainbow colours! Offline.
-- mem_load - shows a graph of the memory load on the Pi as a percentage. Offline.
+- mem_load - shows a graph of the memory load on the Jetson Nano as a percentage. Offline.
 - morse_code - shows a message in [warning: flashing] morse code. Change line 40 if you want a different message. Offline.
 - mqtt - send controls remotely to your Blinkt. May require a paho-mqtt install. Requires setup on another machine as per instructions in the code. Online.
 - pulse - pulses cyan light from the centre pixels to outer edges. Offline.
