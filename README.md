@@ -11,29 +11,6 @@ Eight super-bright RGB LED indicators, ideal for adding visual notifications to 
 
 ## Installing
 
-### Full install (recommended):
-
-We've created an easy installation script that will install all pre-requisites and get your Blinkt!
-up and running with minimal efforts. To run it, fire up Terminal which you'll find in Menu -> Accessories -> Terminal
-on your Jetson Nano, as illustrated below:
-
-![Finding the terminal](http://get.pimoroni.com/resources/github-repo-terminal.png)
-
-In the new terminal window type the command exactly as it appears below (check for typos) and follow the on-screen instructions:
-
-```bash
-curl https://get.pimoroni.com/blinkt | bash
-```
-
-Alternatively, on Raspbian, you can download the `pimoroni-dashboard` and install your product by browsing to the relevant entry:
-
-```bash
-sudo apt-get install pimoroni
-```
-(you will find the Dashboard under 'Accessories' too, in the Pi menu - or just run `pimoroni-dashboard` at the command line)
-
-If you choose to download examples you'll find them in `/home/pi/Pimoroni/blinkt/`.
-
 ### Manual install:
 
 #### Library install for Python 3:
